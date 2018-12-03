@@ -14,3 +14,6 @@ spring:
           producer:
             partitionKeyExpression: payload.groupId
             partitionCount: 3
+logging:
+  level:
+    com.example: debug
